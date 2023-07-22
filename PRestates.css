@@ -1,0 +1,336 @@
+.body{
+    margin: 0px;
+}
+
+.header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+.Menu{
+    background-color: brown;
+    height: 100px;
+}
+
+.logo{
+    padding: 10px;
+    width: 20%;
+}
+
+.logo-text{
+    display: block;
+}
+
+.details{
+    position: absolute;
+    width: 80%;
+    left: 230px;
+    top: 10px;
+    text-align: right;
+}
+
+.details span{
+    padding: 10px;
+}
+
+.navigation{
+    position: absolute;
+    width: 80%;
+    left: 230px;
+    top: 30px;
+}
+
+.option{
+    display: flex;
+}
+
+.option .hlist{
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.option a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub-menu{
+    display: none;
+    padding-top: 20px;
+}
+
+.pro:hover .sub-menu{
+    display: block;
+}
+
+ul.sub-menu{
+    background-color: brown;
+    color: white;
+    min-width: 200px;
+    position: absolute;
+    list-style: none;
+    z-index: 1;
+}
+
+ul.sub-menu li{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.sub-sub-menu1{
+    display: none;
+    padding: 20px;
+}
+
+.ap-pro:hover .sub-sub-menu1{
+    display: block;
+}
+
+ul.sub-sub-menu1{
+    background-color: brown;
+    color: white;
+    min-width: 200px;
+    position: absolute;
+    list-style: none;
+    left: 200px;
+    top: 15px;
+    z-index: 0;
+}
+
+ul.sub-sub-menu1 li{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-sub-menu2{
+    display: none;
+    padding: 20px;
+}
+
+.vi-pro:hover .sub-sub-menu2{
+    display: block;
+}
+
+ul.sub-sub-menu2{
+    background-color: brown;
+    color: white;
+    min-width: 200px;
+    position: absolute;
+    list-style: none;
+    left: 200px;
+    top: 40px;
+}
+
+ul.sub-sub-menu2 li{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-sub-menu3{
+    display: none;
+    padding: 20px;
+}
+
+.op-pro:hover .sub-sub-menu3{
+    display: block;
+}
+
+ul.sub-sub-menu3{
+    background-color: brown;
+    color: white;
+    min-width: 200px;
+    position: absolute;
+    list-style: none;
+    left: 200px;
+    top: 105px;
+    z-index: 0;
+}
+
+ul.sub-sub-menu3 li{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-sub-menu4{
+    display: none;
+    padding: 20px;
+}
+
+.fl-pro:hover .sub-sub-menu4{
+    display: block;
+}
+
+ul.sub-sub-menu4{
+    background-color: brown;
+    color: white;
+    min-width: 200px;
+    position: absolute;
+    list-style: none;
+    left: 200px;
+    top: 170px;
+    z-index: 0;
+}
+
+ul.sub-sub-menu4 li{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+@media(min-width : 320px) and (max-width : 480px){
+    .header{
+        width: 100%;
+    }
+    .Menu{
+        background-color: brown;
+        height: 150px;
+    }
+    .details{
+        position: absolute;
+        width: 75%;
+        left: 70px;
+        top: 10px;
+        text-align: right;
+    }
+    
+    .details span{
+        padding: 10px;
+    }
+
+    .navigation{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 100px;
+    }
+
+    .option .hlist{
+        display: inline;
+        margin-left: 0px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .sub-menu{
+        display: none;
+        padding-top: 5px;
+    }
+
+    ul.sub-menu{
+        background-color: brown;
+        color: white;
+        min-width: 30px;
+        position: absolute;
+        list-style: none;
+        z-index: 1;
+    }
+    
+    ul.sub-menu li{
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .sub-sub-menu1{
+        display: none;
+        padding: 5px;
+    }
+
+    ul.sub-sub-menu1{
+        background-color: brown;
+        color: white;
+        min-width: 30px;
+        position: absolute;
+        list-style: none;
+        left: 140px;
+        top: 5px;
+        z-index: 0;
+    }
+    
+    ul.sub-sub-menu1 li{
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .sub-sub-menu2{
+        display: none;
+        padding: 5px;
+    }
+    
+    .vi-pro:hover .sub-sub-menu2{
+        display: block;
+    }
+    
+    ul.sub-sub-menu2{
+        background-color: brown;
+        color: white;
+        min-width: 30px;
+        position: absolute;
+        list-style: none;
+        left: 140px;
+        top: 10px;
+    }
+    
+    ul.sub-sub-menu2 li{
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .sub-sub-menu3{
+        display: none;
+        padding: 5px;
+    }
+    
+    .op-pro:hover .sub-sub-menu3{
+        display: block;
+    }
+    
+    ul.sub-sub-menu3{
+        background-color: brown;
+        color: white;
+        min-width: 30px;
+        position: absolute;
+        list-style: none;
+        left: 140px;
+        top: 45px;
+        z-index: 0;
+    }
+    
+    ul.sub-sub-menu3 li{
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .sub-sub-menu4{
+        display: none;
+        padding: 5px;
+    }
+
+    
+    ul.sub-sub-menu4{
+        background-color: brown;
+        color: white;
+        min-width: 30px;
+        position: absolute;
+        list-style: none;
+        left: 140px;
+        top: 75px;
+        z-index: 0;
+    }
+    
+    ul.sub-sub-menu4 li{
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
